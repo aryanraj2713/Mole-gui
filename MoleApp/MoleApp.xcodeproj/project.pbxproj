@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001000001 /* MoleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000000 /* MoleAppApp.swift */; };
+		001000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000002 /* ContentView.swift */; };
+		001000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001000004 /* Assets.xcassets */; };
+		001000011 /* SystemModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000010 /* SystemModels.swift */; };
+		001000013 /* CleanupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000012 /* CleanupModels.swift */; };
+		001000021 /* CLIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000020 /* CLIService.swift */; };
+		001000023 /* SystemMonitorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000022 /* SystemMonitorService.swift */; };
+		001000025 /* CleanupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000024 /* CleanupService.swift */; };
+		001000031 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000030 /* DashboardViewModel.swift */; };
+		001000033 /* MonitorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000032 /* MonitorViewModel.swift */; };
+		001000035 /* CleanupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000034 /* CleanupViewModel.swift */; };
+		001000037 /* LogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000036 /* LogsViewModel.swift */; };
+		001000039 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000038 /* SettingsViewModel.swift */; };
+		001000041 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000040 /* DashboardView.swift */; };
+		001000043 /* MonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000042 /* MonitorView.swift */; };
+		001000045 /* CleanupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000044 /* CleanupView.swift */; };
+		001000047 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000046 /* LogsView.swift */; };
+		001000049 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000048 /* SettingsView.swift */; };
+		001000051 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000050 /* SidebarView.swift */; };
+		001000053 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000052 /* MetricCard.swift */; };
+		001000055 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000054 /* ProgressRing.swift */; };
+		001000057 /* LiveChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000056 /* LiveChart.swift */; };
+		001000059 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000058 /* GlassCard.swift */; };
+		001000061 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000060 /* DesignSystem.swift */; };
+		001000063 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001000062 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001000000 /* MoleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleAppApp.swift; sourceTree = "<group>"; };
+		001000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		001000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001000006 /* MoleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoleApp.entitlements; sourceTree = "<group>"; };
+		001000010 /* SystemModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemModels.swift; sourceTree = "<group>"; };
+		001000012 /* CleanupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupModels.swift; sourceTree = "<group>"; };
+		001000020 /* CLIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIService.swift; sourceTree = "<group>"; };
+		001000022 /* SystemMonitorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorService.swift; sourceTree = "<group>"; };
+		001000024 /* CleanupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupService.swift; sourceTree = "<group>"; };
+		001000030 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		001000032 /* MonitorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewModel.swift; sourceTree = "<group>"; };
+		001000034 /* CleanupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupViewModel.swift; sourceTree = "<group>"; };
+		001000036 /* LogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewModel.swift; sourceTree = "<group>"; };
+		001000038 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		001000040 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		001000042 /* MonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorView.swift; sourceTree = "<group>"; };
+		001000044 /* CleanupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupView.swift; sourceTree = "<group>"; };
+		001000046 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		001000048 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		001000050 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		001000052 /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+		001000054 /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		001000056 /* LiveChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChart.swift; sourceTree = "<group>"; };
+		001000058 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		001000060 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		001000062 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		00MOLEAPP /* MoleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00FRAMEWK /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00ROOTGRP = {
+			isa = PBXGroup;
+			children = (
+				00SRCEGRP /* MoleApp */,
+				00PRODGRP /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00PRODGRP /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00MOLEAPP /* MoleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00SRCEGRP /* MoleApp */ = {
+			isa = PBXGroup;
+			children = (
+				00APPGRP0 /* App */,
+				00MODLGRP /* Models */,
+				00SRVCGRP /* Services */,
+				00VMDLGRP /* ViewModels */,
+				00VIEWGRP /* Views */,
+				00UTILGRP /* Utilities */,
+				00RSRCGRP /* Resources */,
+			);
+			path = MoleApp;
+			sourceTree = "<group>";
+		};
+		00APPGRP0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				001000000 /* MoleAppApp.swift */,
+				001000002 /* ContentView.swift */,
+				001000006 /* MoleApp.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		00MODLGRP /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				001000010 /* SystemModels.swift */,
+				001000012 /* CleanupModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00SRVCGRP /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				001000020 /* CLIService.swift */,
+				001000022 /* SystemMonitorService.swift */,
+				001000024 /* CleanupService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		00VMDLGRP /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				001000030 /* DashboardViewModel.swift */,
+				001000032 /* MonitorViewModel.swift */,
+				001000034 /* CleanupViewModel.swift */,
+				001000036 /* LogsViewModel.swift */,
+				001000038 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		00VIEWGRP /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00DASHGRP /* Dashboard */,
+				00MONITGR /* Monitor */,
+				00CLEANGRP /* Cleanup */,
+				00LOGSGRP /* Logs */,
+				00SETTGRP /* Settings */,
+				00COMPGRP /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00DASHGRP /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				001000040 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		00MONITGR /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				001000042 /* MonitorView.swift */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		00CLEANGRP /* Cleanup */ = {
+			isa = PBXGroup;
+			children = (
+				001000044 /* CleanupView.swift */,
+			);
+			path = Cleanup;
+			sourceTree = "<group>";
+		};
+		00LOGSGRP /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				001000046 /* LogsView.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		00SETTGRP /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				001000048 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		00COMPGRP /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				001000050 /* SidebarView.swift */,
+				001000052 /* MetricCard.swift */,
+				001000054 /* ProgressRing.swift */,
+				001000056 /* LiveChart.swift */,
+				001000058 /* GlassCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		00UTILGRP /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				001000060 /* DesignSystem.swift */,
+				001000062 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		00RSRCGRP /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				001000004 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00NATTVTG /* MoleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CFGLST1 /* Build configuration list for PBXNativeTarget "MoleApp" */;
+			buildPhases = (
+				00SRCSBLD /* Sources */,
+				00FRAMEWK /* Frameworks */,
+				00RSRCBLD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoleApp;
+			productName = MoleApp;
+			productReference = 00MOLEAPP /* MoleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00PROJOBJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					00NATTVTG = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 00CFGLST0 /* Build configuration list for PBXProject "MoleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00ROOTGRP;
+			productRefGroup = 00PRODGRP /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00NATTVTG /* MoleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00RSRCBLD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001000005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00SRCSBLD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001000001 /* MoleAppApp.swift in Sources */,
+				001000003 /* ContentView.swift in Sources */,
+				001000011 /* SystemModels.swift in Sources */,
+				001000013 /* CleanupModels.swift in Sources */,
+				001000021 /* CLIService.swift in Sources */,
+				001000023 /* SystemMonitorService.swift in Sources */,
+				001000025 /* CleanupService.swift in Sources */,
+				001000031 /* DashboardViewModel.swift in Sources */,
+				001000033 /* MonitorViewModel.swift in Sources */,
+				001000035 /* CleanupViewModel.swift in Sources */,
+				001000037 /* LogsViewModel.swift in Sources */,
+				001000039 /* SettingsViewModel.swift in Sources */,
+				001000041 /* DashboardView.swift in Sources */,
+				001000043 /* MonitorView.swift in Sources */,
+				001000045 /* CleanupView.swift in Sources */,
+				001000047 /* LogsView.swift in Sources */,
+				001000049 /* SettingsView.swift in Sources */,
+				001000051 /* SidebarView.swift in Sources */,
+				001000053 /* MetricCard.swift in Sources */,
+				001000055 /* ProgressRing.swift in Sources */,
+				001000057 /* LiveChart.swift in Sources */,
+				001000059 /* GlassCard.swift in Sources */,
+				001000061 /* DesignSystem.swift in Sources */,
+				001000063 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00DBGCFG0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00RELCFG0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		00DBGCFG1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoleApp/App/MoleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mole.MoleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00RELCFG1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoleApp/App/MoleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mole.MoleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CFGLST0 /* Build configuration list for PBXProject "MoleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DBGCFG0 /* Debug */,
+				00RELCFG0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CFGLST1 /* Build configuration list for PBXNativeTarget "MoleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DBGCFG1 /* Debug */,
+				00RELCFG1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00PROJOBJ /* Project object */;
+}
